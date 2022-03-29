@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            54:b8:c5:a9:8b:8b:bb:b1:15:62:94:83:84:9d:37:8f
+        Signature Algorithm: ecdsa-with-SHA384
+        Issuer: O=Umeku, CN=Umeku Root Certificate Authority
+        Validity
+            Not Before: Mar 25 00:00:00 2022 GMT
+            Not After : Mar 27 00:00:00 2027 GMT
+        Subject: O=Umeku, CN=Umeku Intermediate Certificate Authority
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (384 bit)
+                pub:
+                    04:90:b2:2f:76:08:72:11:35:74:24:ec:08:35:d3:
+                    02:ee:25:02:0f:aa:02:57:49:1c:b7:f5:b7:96:af:
+                    73:33:ae:40:cb:77:15:cc:bd:d5:19:95:3c:ab:f5:
+                    38:b3:c0:6a:e7:5f:48:6d:fb:e6:28:f6:f3:0a:11:
+                    2f:e5:51:e8:55:f7:09:6d:4c:90:76:23:62:9c:2f:
+                    c0:8c:a5:50:c1:c2:f0:86:06:4d:d2:4e:df:6f:8a:
+                    c5:65:99:12:f8:ba:73
+                ASN1 OID: secp384r1
+                NIST CURVE: P-384
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Subject Key Identifier: 
+                AF:FE:20:EE:04:3B:3A:D6:A4:A0:92:4E:0C:C4:21:F1:59:6C:A0:D0
+            X509v3 Subject Alternative Name: 
+                URI:https://ca.umeku.com/, email:certmaster@umeku.com
+            X509v3 Authority Key Identifier: 
+                keyid:30:A8:4E:4C:4F:B4:A5:C9:9A:81:1A:CB:F9:BD:7B:84:53:59:39:71
+
+            X509v3 Issuer Alternative Name: 
+                URI:https://ca.umeku.com/, email:certmaster@umeku.com
+            Authority Information Access: 
+                CA Issuers - URI:https://ca.umeku.com/certs/root-ca.crt
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:https://ca.umeku.com/crl/root-ca.crl
+
+    Signature Algorithm: ecdsa-with-SHA384
+         30:65:02:30:31:aa:6b:c8:5d:44:86:74:ac:65:53:7f:9b:63:
+         be:1a:dd:a0:b2:b2:c2:66:cd:8a:54:c3:3c:ce:c8:1a:d5:e5:
+         3b:6e:68:34:5a:73:78:94:e5:7e:9f:9b:d7:d1:f3:48:02:31:
+         00:f4:74:e5:74:99:85:23:c1:dc:d9:09:22:a9:6e:06:c6:39:
+         9e:2b:06:3d:cd:2e:22:70:e6:a2:ca:34:53:88:1a:5b:d6:6d:
+         7e:bd:6a:eb:e8:23:d4:6c:50:87:ac:dc:11
+-----BEGIN CERTIFICATE-----
+MIIDDjCCApSgAwIBAgIQVLjFqYuLu7EVYpSDhJ03jzAKBggqhkjOPQQDAzA7MQ4w
+DAYDVQQKDAVVbWVrdTEpMCcGA1UEAwwgVW1la3UgUm9vdCBDZXJ0aWZpY2F0ZSBB
+dXRob3JpdHkwHhcNMjIwMzI1MDAwMDAwWhcNMjcwMzI3MDAwMDAwWjBDMQ4wDAYD
+VQQKDAVVbWVrdTExMC8GA1UEAwwoVW1la3UgSW50ZXJtZWRpYXRlIENlcnRpZmlj
+YXRlIEF1dGhvcml0eTB2MBAGByqGSM49AgEGBSuBBAAiA2IABJCyL3YIchE1dCTs
+CDXTAu4lAg+qAldJHLf1t5avczOuQMt3Fcy91RmVPKv1OLPAaudfSG375ij28woR
+L+VR6FX3CW1MkHYjYpwvwIylUMHC8IYGTdJO32+KxWWZEvi6c6OCAVMwggFPMBIG
+A1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBSv/iDu
+BDs61qSgkk4MxCHxWWyg0DA2BgNVHREELzAthhVodHRwczovL2NhLnVtZWt1LmNv
+bS+BFGNlcnRtYXN0ZXJAdW1la3UuY29tMB8GA1UdIwQYMBaAFDCoTkxPtKXJmoEa
+y/m9e4RTWTlxMDYGA1UdEgQvMC2GFWh0dHBzOi8vY2EudW1la3UuY29tL4EUY2Vy
+dG1hc3RlckB1bWVrdS5jb20wQgYIKwYBBQUHAQEENjA0MDIGCCsGAQUFBzAChiZo
+dHRwczovL2NhLnVtZWt1LmNvbS9jZXJ0cy9yb290LWNhLmNydDA1BgNVHR8ELjAs
+MCqgKKAmhiRodHRwczovL2NhLnVtZWt1LmNvbS9jcmwvcm9vdC1jYS5jcmwwCgYI
+KoZIzj0EAwMDaAAwZQIwMapryF1EhnSsZVN/m2O+Gt2gsrLCZs2KVMM8zsga1eU7
+bmg0WnN4lOV+n5vX0fNIAjEA9HTldJmFI8Hc2QkiqW4GxjmeKwY9zS4icOaiyjRT
+iBpb1m1+vWrr6CPUbFCHrNwR
+-----END CERTIFICATE-----
